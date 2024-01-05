@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+    color: seashell;
+    margin: 0;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    height: 69px;
+    margin: auto 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#breadcrumb {
+    justify-content: end;
+}
+
+#breadcrumb li{
+    display: inline;
+    margin: 10px;
+}
+
+#breadcrumb a {
+    color: seashell;
+}
+
+#logo {
+    height: 50px;
+    justify-content: flex-start;
+}
+
+#headband {
+    display: flex;
+    background-image: url("../images/img-mission-background.jpg");
+    height: 700px;
+    max-width: 1200px;
+    align-items: center;
+    margin: auto;
+}
+
+#black-headband {
+    flex-grow: 2 ;
+    background-color: black;
+}
+
+#black-headband h2,
+h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#tea-month{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#tea-elements {
+    display: inline-flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#tea-elements img {
+    margin: 0px;
+    max-height: 200px;
+    max-width: 300px;
+}
+
+#tea-elements li,
+p {
+    margin: 3px 15px;
+    padding: 10px 0;
+}
+
+#locations {
+    background-image: url("../images/img-locations-background.jpg");
+    height: 500px;
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#locations h2 {
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+#locations li {
+    list-style-type: none;
+    margin: 0;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+#locations-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 300px;
+}
+
+#locations-list p {
+    margin-bottom: 20px;
+
+}
+
+#footer h2 {
+    margin-top: 10px;
+}
+
+#footer p {
+    margin-bottom: 60px;
+}
